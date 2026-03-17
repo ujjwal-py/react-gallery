@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer components {
+  h1, h2 {
+    @apply text-white font-bold
+  }
+
+  label {
+    @apply  text-white font-bold block mb-2
+  }
+}
+
