@@ -2,15 +2,26 @@
 Made using react, fetching images via using unsplash API
 
 # Setup
-Sign up to unsplash and create an application, copy the client_id and make the env like this 
+Setup up the repo and install packages
 
+```
+git clone https://github.com/ujjwal-py/react-gallery.git
+cd react-gallery
+npm install 
+```
+
+Make user account on unsplash.com and get the API key then setup .env 
 ```
 CLIENT_ID= #your client_id here
 ```
 
-then install and run the project 
-
+then run the project 
 ```
-npm install 
 npm run dev
 ```
+
+
+## Todo
+
+- [ ] Add the Loading animation on cards
+
